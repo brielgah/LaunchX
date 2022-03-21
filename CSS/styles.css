@@ -451,7 +451,86 @@ li img{
 
   .fiveSection
   {
-      padding-left: 5%;
-      padding-right: 5%;
-      max-width: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
   }
+
+  .textContact
+  { 
+    padding-top: 3%;  
+  }
+
+  .cardsContact{
+    display: flex;
+    justify-content: space-between;
+    max-width: 40%;
+    min-height: 150px;
+    flex-wrap: wrap;
+    padding-right: 5%;
+}
+
+.cardsContact ul:hover {
+    box-shadow: 8px 28px 50px rgba(39,44,49,.07), 1px 6px 12px rgba(39,44,49,.04);
+    /* background-color: #7baaeb98; */
+    transition: all .4s ease; /* zoom in */
+    width: 40%;
+  }
+
+.cardsContact ul{
+    border: solid 3px rgba(109, 123, 147, 0.2);
+    border-radius: 10px;
+    list-style: none;
+    padding: 2.5%;
+    transition: all ease-in-out .3s;
+    width: 30%;
+    margin-top: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.cardsContact span{
+    color: #1F3E72;
+    font-family: 'Hind Vadodara', sans-serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    display: inline;
+    margin-left: 15px;
+}
+
+.cardsContact li{
+    display: flex;
+    align-items: center;
+}
+
+.cardsContact p {
+    color: #6d7b93;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.2em;
+    font-weight: 400;
+    line-height: 1.5em;
+    margin-left: 15px;
+}
+
+.cardsContact button {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    box-shadow: 0px 10px 10px rgb(0 0 0 / 30%);
+    color: #2c4cca;
+    cursor: pointer;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    transition: all ease-in-out .3s;
+    width: 100%;
+}
+
+.cardsContact button:hover{
+    background-color: #2c4cca77;
+}
